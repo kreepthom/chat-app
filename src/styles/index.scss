@@ -1,0 +1,15 @@
+
+
+//base
+@forward './base/base.scss';
+
+// components
+@forward './components/_message';
+@forward './components/_messages';
+@forward'./components/_header';
+@forward './components/_slidebar';
+@forward './components/_button_setting';
+@forward './components/_register';
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap');

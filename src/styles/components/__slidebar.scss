@@ -1,0 +1,21 @@
+.contianer_sliderbar{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgba(214, 214, 214, 0.3);
+    margin:auto 0;
+    height: 90%;
+    width: 300px;
+
+    & div{
+        cursor: pointer;
+        transition: .6s;
+        margin-bottom: 15px;
+    }
+    & div:hover{
+        transition: .4s;
+        scale: 1.05;
+    }
+    & div svg{
+       background-color: rgba(41, 168, 252,0.4);
+    }
+}
